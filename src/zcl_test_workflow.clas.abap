@@ -1,26 +1,26 @@
-CLASS zcl_test_workflow DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_TEST_WORKFLOW definition
+  public
+  final
+  create public .
 
-  PUBLIC SECTION.
+public section.
 
-    INTERFACES bi_object .
-    INTERFACES bi_persistent .
-    INTERFACES if_workflow .
+  interfaces BI_OBJECT .
+  interfaces BI_PERSISTENT .
+  interfaces IF_WORKFLOW .
 
-    DATA:
-      mv_key     TYPE c LENGTH 1 .
-    DATA:
+  data:
+    mv_key     TYPE c LENGTH 1 .
+  data:
       "! <p class="shorttext synchronized" lang="en">Text, no key</p>
-      mv_not_key TYPE c LENGTH 1 .
+    mv_not_key TYPE c LENGTH 1 .
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS zcl_test_workflow IMPLEMENTATION.
+CLASS ZCL_TEST_WORKFLOW IMPLEMENTATION.
 
 
   METHOD bi_object~default_attribute_value.

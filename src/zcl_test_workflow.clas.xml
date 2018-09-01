@@ -22,12 +22,6 @@
      <DESCRIPT>Text, no key</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
-   <ATTRIBUTES>
-    <item>
-     <CMPNAME>MV_KEY</CMPNAME>
-     <ATTBUSOBJ>X</ATTBUSOBJ>
-    </item>
-   </ATTRIBUTES>
   </asx:values>
  </asx:abap>
 </abapGit>
