@@ -24,7 +24,7 @@
    </DESCRIPTIONS>
    <ATTRIBUTES>
     <item>
-     <CMPNAME>MV_KEY</CMPNAME>
+     <CMPNAME>MV_NOT_KEY</CMPNAME>
      <ATTKEYFLD>X</ATTKEYFLD>
     </item>
    </ATTRIBUTES>
