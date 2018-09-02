@@ -25,7 +25,7 @@
    <ATTRIBUTES>
     <item>
      <CMPNAME>MV_KEY</CMPNAME>
-     <ATTBUSOBJ>X</ATTBUSOBJ>
+     <ATTKEYFLD>X</ATTKEYFLD>
     </item>
    </ATTRIBUTES>
   </asx:values>
