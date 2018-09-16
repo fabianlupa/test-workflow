@@ -8,14 +8,12 @@ public section.
   interfaces BI_OBJECT .
   interfaces BI_PERSISTENT .
   interfaces IF_WORKFLOW .
-
-  data:
-    mv_key     TYPE c LENGTH 1 .
+DATA: mv_key TYPE c LENGTH 1.
   data:
       "! <p class="shorttext synchronized" lang="en">Text, no key</p>
     mv_not_key TYPE c LENGTH 1 .
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+protected section.
+private section.
 ENDCLASS.
 
 
