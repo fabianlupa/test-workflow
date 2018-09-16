@@ -8,7 +8,7 @@ public section.
   interfaces BI_OBJECT .
   interfaces BI_PERSISTENT .
   interfaces IF_WORKFLOW .
-DATA: mv_key TYPE c LENGTH 1.
+
   data:
       "! <p class="shorttext synchronized" lang="en">Text, no key</p>
     mv_not_key TYPE c LENGTH 1 .
